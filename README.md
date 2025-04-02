@@ -1,1 +1,2 @@
-![gif cat](https://github.com/user-attachments/assets/f837352a-9d65-45f7-b6d4-879c002fc4f6)
+![image](https://github.com/user-attachments/assets/eb9092c2-5433-4839-9cda-0a7daeebaf2e)
+
