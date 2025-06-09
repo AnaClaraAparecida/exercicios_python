@@ -18,8 +18,8 @@ while True:
         print('ERRO! Digite [S/N]: ')
     if resp == 'N':
         break
-print('-=' * 30)
-print('cod ', end='')
+print('-=' * 25)
+print('cod', end=' ')
 for i in jogador.keys():
     print(f'{i:<15}', end='')
 print()
@@ -29,8 +29,18 @@ for k, v in enumerate(time):
     for d in v.values():
         print(f'{str(d):<15}', end='')
     print()
-print('-' *40)
-
-
+print('-' *60)
+while True:
+    busca = int(input('Deseja buscar o codigo de qual jogador? (999 para parar): '))
+    if busca == 999:
+        break
+    if busca >= len(time):
+        print(f'ERRO! Não existe um jogador com o codigo {busca}')
+    else:
+        print(f' -> LEVANTAMENTO DO JOGADOR: {time[busca]["Nome"]} <- ')
+        for i, g in enumerate(time[busca]['Gols']):
+            print(f'   No jogo {i}, {time[busca]["Nome"]} fez {g} gols')
+        print('-' * 60)
+print('               --> VOLTE SEMPRE! <--')
 
 
