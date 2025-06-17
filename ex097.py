@@ -1,5 +1,11 @@
 from time import sleep
 def contador(i, f, p):
+    """
+    :param i: inicio
+    :param f: fim
+    :param p:passo
+    :return:
+    """
     print(f'Contagem de {i} até {f} de {p} em {p}')
     sleep(2.5)
 

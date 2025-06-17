@@ -1,4 +1,4 @@
-nome = input('digite deu nome: ')
+nome = input('digite seu nome: ')
 print('Prazer em te conhecer, {}!'.format(nome))
 
 
