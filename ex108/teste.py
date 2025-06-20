@@ -1,5 +1,5 @@
-import moedas
+from ex108 import moedas
 p = float(input('Digite o preço: R$'))
-print(f'A metade de R${p} é R${moedas.metade(p)}')
-print(f'O dobro de R${p} é R${moedas.dobro(p)} ')
-print(f'Aumentado 10%, temos R${moedas.aumentar(p, 10)}')
+print(f'A metade de {moedas.moeda(p)} é {moedas.moeda(moedas.metade(p))}')
+print(f'O dobro de {moedas.moeda(p)} é {moedas.moeda(moedas.dobro(p))}')
+print(f'Aumentado 10%, temos {moedas.moeda(moedas.aumentar(p, 10))}')
